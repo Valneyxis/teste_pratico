@@ -1,0 +1,21 @@
+<html></html>
+    <script>
+let entrada = prompt("Digite uma string:");
+
+let quantidadeA = 0;
+
+for (let i = 0; i < entrada.length; i++) {
+  if (entrada[i] === 'a' || entrada[i] === 'A') {
+    quantidadeA++;
+  }
+}
+
+if (quantidadeA > 0) {
+  console.log(`A letra 'a' ocorre ${quantidadeA} vezes.`);
+} else {
+  console.log("A letra 'a' não foi encontrada na string.");
+}
+
+
+    </script>
+</html>

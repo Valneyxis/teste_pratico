@@ -1,0 +1,11 @@
+Na sala dos interruptores:
+
+Ligue o primeiro interruptor e deixe-o ligado por cerca de 10 minutos.
+Depois desse tempo, desligue o primeiro interruptor e ligue o segundo interruptor.
+Deixe o terceiro interruptor desligado.
+Agora, vá para a sala das lâmpadas:
+
+A lâmpada que estiver acesa estará conectada ao segundo interruptor (que ficou ligado).
+Toque nas lâmpadas apagadas. A que estiver quente estará conectada ao primeiro interruptor (porque ficou ligada por um tempo e depois foi desligada).
+A lâmpada que estiver fria e apagada estará conectada ao terceiro interruptor, que nunca foi ligado.
+Dessa forma, com apenas uma ida à sala das lâmpadas, você consegue descobrir qual interruptor controla qual lâmpada.

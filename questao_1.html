@@ -1,0 +1,24 @@
+<html>
+    <script>
+    function fibonacciSequence(n) {
+    let fibSequence = [0, 1];
+    while (fibSequence[fibSequence.length - 1] < n) {
+        let nextValue = fibSequence[fibSequence.length - 1] + fibSequence[fibSequence.length - 2];
+        fibSequence.push(nextValue);
+    }
+    return fibSequence;
+}
+
+function isInFibonacci(n) {
+    let fibSequence = fibonacciSequence(n);
+    if (fibSequence.includes(n)) {
+        return `O número ${n} pertence à sequência de Fibonacci.`;
+    } else {
+        return `O número ${n} não pertence à sequência de Fibonacci.`;
+    }
+}
+let numero = parseInt(prompt("Informe um número: "));
+console.log(isInFibonacci(numero));
+
+    </script>
+</html>
